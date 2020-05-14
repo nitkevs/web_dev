@@ -1,0 +1,6 @@
+{
+  "name": "drupal/web_dev",
+  "description": "Custom theme for my blog Drupal projec.",
+  "type": "drupal-theme",
+  "license": "GPL-2.0+"
+}
