@@ -12,6 +12,7 @@ body {
   font-family: 'PT Sans';
   letter-spacing: 0.5px;
   line-height: 1.2em;
+  color: #202020;
 }
 
 #main-wrapper a {
@@ -88,6 +89,7 @@ header ul.menu a {
   display: block;
   margin: 0;
   padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
   color: #eee;
   font-size: 14px;
 }
@@ -159,14 +161,26 @@ header a {
   color: #eee;
 }
 
+.region-sidebar-first ul li{
+  list-style: none;
+}
+
 #main-wrapper .region-sidebar-first a {
-  color: #efe;
+  color: #d5c55d;
 }
 
 .region-sidebar-first h2 {
   color: #eee;
 }
 
+.region-sidebar-first input {
+  color: #202020;
+}
+
+.region-sidebar-first input[type="search"] {
+  color: #202020;
+  padding: 1px 4px;
+}
 /* ----- end of sidebar-first ----- */
 
 /* ----- main ----- */
@@ -182,7 +196,7 @@ header a {
 }
 
 .region-content {
-  padding: 15px;
+  padding: 15px 35px;
 }
 
 div#main {
