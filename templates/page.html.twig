@@ -107,19 +107,13 @@
       </div>
     {% endif %}
     <footer class="site-footer">
-      <div class="layout-container">
+      <div class="layout-container clearfix">
         {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
-          <div class="site-footer__top clearfix">
+          <div id="footer-menu">
             {{ page.footer_first }}
             {{ page.footer_second }}
+          </div>
             {{ page.footer_third }}
-            {{ page.footer_fourth }}
-          </div>
-        {% endif %}
-        {% if page.footer_fifth %}
-          <div class="site-footer__bottom">
-            {{ page.footer_fifth }}
-          </div>
         {% endif %}
       </div>
     </footer>
