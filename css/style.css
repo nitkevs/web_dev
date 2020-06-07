@@ -60,11 +60,6 @@ kbd {
 header {
   background: linear-gradient(to bottom, #5b5d5d,#3f4040);
   height: 135px;
-  color: #99a09c;
-  box-shadow: 0px 0px 5px #1a2504;
-  position: relative;
-  z-index: 3;
-  border-bottom: 3px solid #5a5c5c;
 }
 
 header .layout-container {
@@ -220,11 +215,12 @@ header a {
   width: calc(100% - 260px); /*ширина экрана минус ширина #sidebar-first*/
   position: relative;
   z-index: 2;
-  border-left: 3px solid #bfc3b6;
   padding: 16px 35px 2000000px 35px;
   background: #fff;
   margin-bottom: -2000000px;
+  box-shadow: inset 0px 15px 5px -15px #1a2504;
 }
+
 
 #content a {
    color: #202020;
@@ -254,7 +250,7 @@ div#main {
 footer.site-footer {
   background: #787878;
   color: #dedede;
-  border-top: 1px solid #8f8f8f;
+  border-top: 1px solid #888;
   font-size: 14px;
 }
 
