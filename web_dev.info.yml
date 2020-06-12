@@ -14,7 +14,6 @@ regions:
   highlighted: Highlighted
   content: Content
   sidebar_first: 'Sidebar first'
-  sidebar_second: 'Sidebar second'
   footer_first: 'Footer first'
   footer_second: 'Footer second'
   footer_third: 'Footer third'
@@ -22,4 +21,4 @@ regions:
 # Information added by Drupal.org packaging script on 2020-03-04
 version: '8.8.3'
 project: 'drupal'
-datestamp: 1591538846
+datestamp: 1591965576

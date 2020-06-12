@@ -58,16 +58,17 @@ kbd {
 /* ----- header  ----- */
 
 header {
-  background: linear-gradient(to bottom, #5b5d5d,#3f4040);
+  background: url("../images/header-background.png") #5b5d5d;
+  background-position-x: 65px;
   height: 135px;
 }
 
 header .layout-container {
-  background: url("../images/header-background.png");
+  background: linear-gradient(to bottom, transparent ,#3f4040);
+  height: 135px;
 }
 
 header > div {
-  width: 1096px;
   max-width: 100%;
   margin: 0px auto;
 }
@@ -104,9 +105,6 @@ header ul.menu a:hover {
   color: #dbf5a3;
 }
 
-#block-web-dev-branding {
-  margin: 55px auto 0 19%;
-}
 
 #block-web-dev-branding a {
   font-family: 'Jura', serif;
@@ -121,19 +119,30 @@ header a {
 
 .region-header {
   width: 50%;
-  margin: 0px;
   float: left;
+  padding-left: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
 }
 
 .region-primary-menu {
   width: 50%;
-  margin: 0px;
   float: left;
+  padding-right: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 135px;
+}
+
+#block-web-dev-main-menu {
+    width: 85%;
 }
 
 #block-web-dev-main-menu > .menu {
   border-radius: 4px;
-  margin: 50px 5% 0px 6%;
   background: hsla(0, 0%, 38%, 0.6);
   font-family: 'Open Sans';
   text-align: center;
@@ -212,7 +221,7 @@ header a {
 
 #content {
   float: right;
-  width: calc(100% - 260px); /*ширина экрана минус ширина #sidebar-first*/
+  width: calc(100% - 260px);
   position: relative;
   z-index: 2;
   padding: 16px 35px 2000000px 35px;
@@ -290,8 +299,8 @@ footer.site-footer a:hover {
 }
 
 .region.region-footer-third a {
-  color: #80c6ff;
-
+  color: #d7c865;
+  text-shadow: 2px 1px 1px hsla(0, 0%, 38%, 1);
 }
 
 /* ----- end of footer ----- */
