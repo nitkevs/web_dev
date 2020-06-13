@@ -1,22 +1,20 @@
 @media screen and (max-width: 960px) {
 
-  .region-header {width: 100%; float: none; padding: 0;}
+  .region-header {float: none ;width: 100%; padding: 0;}
 
-  .region-primary-menu {display: block; width: 100%; height: auto; float: none; padding: 0;}
+  .region-primary-menu {display: block; float: none; width: 100%; height: auto; padding: 0;}
 
   #block-web-dev-main-menu > .menu {border-radius: 0;}
 
   #block-web-dev-main-menu {width: 100%;}
 
-  header {background-position-x: 0px;}
-
 }
 
 @media screen and (max-width: 800px) {
 
-  #content {width: 100%; float: none; padding: 16px 35px; margin: 0;}
+  #content {float: none; width: 100%; margin: 0; padding: 16px 35px;}
 
-  #sidebar-first {width: 100%; float: none; margin: 0; padding: 0;}
+  #sidebar-first {float: none; width: 100%; margin: 0; padding: 0;}
 
   .region-sidebar-first h2 {padding: 9px 4px; text-align: center;}
 
@@ -26,13 +24,11 @@
 
 @media screen and (max-width: 640px) {
 
-  #sidebar-first {position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; opacity: 0; padding: 0; margin: 0; text-align: center;}
+  #sidebar-first {position: fixed; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; opacity: 0; margin: 0; padding: 0; text-align: center;}
 
-  #open-menu-button {display: block; float: right; background: #4d4f4f; border-radius: 6px; margin: 12px 0 12px 12px;}
+  #open-menu-button {display: block; float: right; margin: 12px 0 12px 12px; border-radius: 6px; background: #4d4f4f;}
 
   .region-primary-menu {display: none;}
-
-  header {background-position-x: -35px;}
 
 }
 

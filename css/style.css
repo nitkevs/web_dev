@@ -25,11 +25,11 @@ body {
 }
 
 h1 {
-  font-size: 23px;
-  color: #444;
   margin: 0px;
   padding: 22px 0;
+  font-size: 23px;
   line-height: 1.1em;
+  color: #444;
 }
 
 h2 {
@@ -40,21 +40,21 @@ h2 {
 code, samp {
   display: block;
   border: 1px solid #ebebeb;
-  background: #f2f2f2;
+  border-radius: 2px;
   margin: 10px;
   padding: 8px 12px;
+  background: #f2f2f2;
   font-family: 'PT Mono', monospace;
   font-size: 14px;
-  border-radius: 2px;
 }
 
 kbd {
-  border: 1px solid #bfbfbf;
-  background: #f2f2f2;
   padding: 0px 4px;
+  border: 1px solid #bfbfbf;
+  border-radius: 2px;
+  background: #f2f2f2;
   font-family: 'PT Mono', monospace;
   font-size: 14px;
-  border-radius: 2px;
 }
 
 /* ----- header  ----- */
@@ -65,19 +65,14 @@ header {
   z-index: 2;
 }
 
-header > div {
-  max-width: 100%;
-  margin: 0px auto;
-}
-
 ul.menu {
   margin: 0;
 }
 
 header ul.menu li {
   display: inline-block;
-  padding: 10px 20px 0px;
   margin: 0px;
+  padding: 10px 20px 0px;
 }
 
 header ul.menu a {
@@ -92,9 +87,9 @@ header ul.menu a {
 
 header ul.menu a.is-active {
   display: block;
-  color: #eee;
   border-bottom: 3px solid #dbf5a3;
   font-weight: bold;
+  color: #eee;
 }
 
 header ul.menu a:hover {
@@ -115,27 +110,27 @@ header a {
 }
 
 .region-header {
-  width: 50%;
-  float: left;
-  padding-left: 12%;
   display: flex;
+  float: left;
+  width: 50%;
+  height: 135px;
+  padding-left: 12%;
   align-items: center;
   justify-content: center;
-  height: 135px;
 }
 
 .region-primary-menu {
-  width: 50%;
-  float: left;
-  padding-right: 6%;
   display: flex;
+  float: left;
+  width: 50%;
+  height: 135px;
+  padding-right: 6%;
   align-items: center;
   justify-content: center;
-  height: 135px;
 }
 
 #block-web-dev-main-menu {
-    width: 85%;
+  width: 85%;
 }
 
 #block-web-dev-main-menu > .menu {
@@ -172,14 +167,14 @@ header a {
 }
 
 .region-sidebar-first h2 {
-  color: #f3f7f7;
   margin: 0;
   padding: 9px 4px 9px 16px;
-  letter-spacing: 1px;
   box-shadow: 0px 2px 10px #363636;
   text-shadow: 1px 1px 5px #262727;
   font-family: 'Open Sans';
   font-size: 17px;
+  letter-spacing: 1px;
+  color: #f3f7f7;
 }
 
 .region-sidebar-first input {
@@ -187,8 +182,8 @@ header a {
 }
 
 .region-sidebar-first input[type="search"] {
-  color: #202020;
   padding: 1px 4px;
+  color: #202020;
 }
 
 .region-sidebar-first > * > *:last-child {
@@ -215,20 +210,16 @@ header a {
 
 /* ----- main ----- */
 
-#main-wrapper {
-  margin: 0;
-  width: 100%;
-}
 
 #content {
   float: right;
-  width: calc(100% - 260px);
   position: relative;
   z-index: 2;
-  padding: 16px 35px 2000000px 35px;
-  background: #fff;
+  width: calc(100% - 260px);
   margin-bottom: -2000000px;
+  padding: 16px 35px 2000000px 35px;
   box-shadow: inset 0px 15px 5px -15px #1a2504;
+  background: #fff;
 }
 
 
@@ -258,10 +249,10 @@ div#main {
 /* ----- footer ----- */
 
 footer.site-footer {
-  background: #787878;
-  color: #dedede;
   border-top: 1px solid #888;
+  background: #787878;
   font-size: 14px;
+  color: #dedede;
 }
 
 footer.site-footer a,
@@ -310,11 +301,11 @@ footer.site-footer a:hover {
 
 #main-wrapper .tabs a {
   display: block;
-  padding: 0.2em 1em;
-  text-decoration: none;
-  border: 1px solid #62747a;
-  color: #445155;
   margin-bottom: 5px;
+  padding: 0.2em 1em;
+  border: 1px solid #62747a;
+  text-decoration: none;
+  color: #445155;
 }
 
 #main-wrapper .tabs a.is-active {
