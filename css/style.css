@@ -214,6 +214,10 @@ header a {
   display: none;
 }
 
+#close-menu-button {
+  display: none;
+}
+
 /* ----- end of sidebar-first ----- */
 
 /* ----- main ----- */

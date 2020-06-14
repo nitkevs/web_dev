@@ -28,6 +28,8 @@
 
   #open-menu-button {display: block; float: right; margin: 12px 0 12px 12px; border-radius: 6px; background: #4d4f4f;}
 
+  #close-menu-button {display: block; position: absolute; top: 18px; right: 18px;}
+
   .region-primary-menu {display: none;}
 
   #block-web-dev-search {padding: 10px 0 0 0;}
