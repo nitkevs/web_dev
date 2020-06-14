@@ -24,11 +24,17 @@
 
 @media screen and (max-width: 640px) {
 
-  #sidebar-first {position: fixed; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; opacity: 0; margin: 0; padding: 0; text-align: center;}
+  #sidebar-first {position: fixed; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; opacity: 0; margin: 0; padding: 0; overflow-x: scroll; text-align: center;}
 
   #open-menu-button {display: block; float: right; margin: 12px 0 12px 12px; border-radius: 6px; background: #4d4f4f;}
 
   .region-primary-menu {display: none;}
+
+  #block-web-dev-search {padding: 10px 0 0 0;}
+
+  #sidebar-first .menu--main {display: block;}
+
+  .region-sidebar-first input[type="search"] {width: 134px; margin-left: 57px;}
 
 }
 

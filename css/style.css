@@ -202,8 +202,16 @@ header a {
   padding: 10px 0;
 }
 
+#sidebar-first .menu--main {
+  display: none;
+}
+
+#sidebar-first .menu--main ul.menu {
+  padding-top: 0;
+}
+
  #open-menu-button {
-   display: none
+  display: none;
 }
 
 /* ----- end of sidebar-first ----- */
