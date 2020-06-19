@@ -1,13 +1,23 @@
-let openMenuButton = document.getElementById('menu-button');
-let closeMenuButton = document.getElementById('menu-close-button');
-let menu = document.querySelector('.region-primary-menu');
-
+let items = document.querySelectorAll('#sidebar-first a, #sidebar-first h2');
+let menu = document.getElementById('sidebar-first');
+let openMenuButton = document.getElementById('open-menu-button');
+let closeMenuButton = document.getElementById('close-menu-button');
 openMenuButton.addEventListener('click', function() {
-	menu.style.transform = 'translate(0%,0%)';
-	menu.style.opacity = '100%';
-});
+    menu.style.opacity = "1";
+    menu.style.zIndex = "3";
+  for (i = 0; i < items.length; i++) {
+    items[i].style.transitionDelay = i/50  + "s";
+    items[i].style.transform = "translateX(0%)";
+  }
+
+  });
 
 closeMenuButton.addEventListener('click', function() {
-  menu.style.transform = 'translate(-100%,0%)';
-  menu.style.opacity = '0%';
+   menu.style.opacity = "0";
+   setTimeout(function() {
+     menu.style.zIndex = '0';
+     for (i = 0; i < items.length; i++) {
+     items[i].style.transform = "translateX(-100%)";
+     }
+   }, 401); // Заменить 401 на значение transitionDuration меню. Типа x = menu.transitionDuration, но отрезать s и умножить на 1000
 });
