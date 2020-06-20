@@ -19,5 +19,5 @@ closeMenuButton.addEventListener('click', function() {
      for (i = 0; i < items.length; i++) {
      items[i].style.transform = "translateX(-100%)";
      }
-   }, 401); // Заменить 401 на значение transitionDuration меню. Типа x = menu.transitionDuration, но отрезать s и умножить на 1000
+   }, 600);
 });

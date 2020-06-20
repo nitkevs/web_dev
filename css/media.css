@@ -46,7 +46,7 @@
 
 /*   .region-sidebar-first h2 {padding: 0;} */
 
-  #sidebar-first a, #sidebar-first h2 {transition-duration: 0.55s; transform: translateX(-100%);}
+  #sidebar-first a, #sidebar-first h2 {transition-duration: 0.4s; transform: translateX(-100%);}
 
   /* --- End of mobile menu --- */
 
