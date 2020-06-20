@@ -28,9 +28,9 @@
 
   #sidebar-first {position: fixed; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; opacity: 0; margin: 0; padding: 0; overflow-x: scroll; text-align: center; transition-duration: 0.4s; transition-property: opacity;}
 
-  #open-menu-button {display: block; float: right; margin: 12px 0 12px 12px; border-radius: 6px; background: #4d4f4f;}
+  #open-menu-button {display: block; float: right; margin: 12px 0 12px 12px; position: relative; z-index: 4; border-radius: 6px; background: #4d4f4f;}
 
-  #close-menu-button {display: block; position: absolute; top: 18px; right: 18px;}
+  #close-menu-button {display: block; position: absolute; z-index: 4; top: 18px; right: 18px;}
 
   .region-primary-menu {display: none;}
 

@@ -1,4 +1,4 @@
-let items = document.querySelectorAll('#sidebar-first a, #sidebar-first h2');
+let items = document.querySelectorAll('#sidebar-first ul.menu a, #sidebar-first .item-list a, #sidebar-first .h2-container h2');
 let menu = document.getElementById('sidebar-first');
 let openMenuButton = document.getElementById('open-menu-button');
 let closeMenuButton = document.getElementById('close-menu-button');
