@@ -1,3 +1,9 @@
+@media screen and (max-width: 1280px) {
+
+  header {background-position-x: 30px;}
+
+}
+
 @media screen and (max-width: 960px) {
 
   .region-header {float: none ;width: 100%; padding: 0;}

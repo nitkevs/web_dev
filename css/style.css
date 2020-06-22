@@ -60,7 +60,7 @@ kbd {
 /* ----- header  ----- */
 
 header {
-  background: linear-gradient(to bottom, transparent, #3f4040), url(../images/header-background.png) #5b5d5d 30px 0 repeat-x;
+  background: linear-gradient(to bottom, transparent, #3f4040), url(../images/header-background.png) #5b5d5d 90px 0 repeat-x;
   position: relative;
   z-index: 2;
 }
