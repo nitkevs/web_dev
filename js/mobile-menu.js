@@ -9,8 +9,7 @@ openMenuButton.addEventListener('click', function() {
     items[i].style.transitionDelay = i/50  + "s";
     items[i].style.transform = "translateX(0%)";
   }
-
-  });
+});
 
 closeMenuButton.addEventListener('click', function() {
    menu.style.opacity = "0";
@@ -21,3 +20,5 @@ closeMenuButton.addEventListener('click', function() {
      }
    }, 600);
 });
+
+

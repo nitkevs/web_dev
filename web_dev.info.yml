@@ -1,9 +1,8 @@
 name: web_dev
 type: theme
 base theme: classy
-description: 'Тема для блога (1)'
+description: 'Тема для блога'
 package: core
-# version: VERSION
 core: 8.x
 core_version_requirement: ^8 || ^9
 libraries:
@@ -22,3 +21,4 @@ regions:
 version: '8.8.3'
 project: 'drupal'
 datestamp: 1591965576
+
