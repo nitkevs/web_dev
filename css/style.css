@@ -237,7 +237,7 @@ header a {
 #content {
   float: right;
   position: relative;
-  z-index: 2;
+  z-index: 1;
   width: calc(100% - 260px);
   margin-bottom: -2000000px;
   padding: 16px 35px 2000000px 35px;
@@ -260,6 +260,10 @@ div#main {
 
 .region-content {
   padding-bottom: 36px;
+}
+
+footer.node__meta {
+  margin-bottom: 14px;
 }
 
 .field__items {
@@ -328,6 +332,7 @@ footer.site-footer a:hover {
   border: 1px solid #62747a;
   text-decoration: none;
   color: #445155;
+  line-height: 1.2em;
 }
 
 #main-wrapper .tabs a.is-active {
@@ -339,9 +344,23 @@ footer.site-footer a:hover {
   text-decoration: underline;
 }
 
-#main-wrapper ul.contextual-links  li a {
-  color: #1f76bd;;
+
+#block-web-dev-branding ul.contextual-links a,
+#main-wrapper ul.contextual-links a,
+.contextual-region .contextual .contextual-links a {
+  font-family: sans-serif;
+  color: #1f76bd;
+  font-size: small;
   text-shadow: none;
+  text-decoration: none;
+  background: transparent;
 }
 
+#block-web-dev-branding ul.contextual-links a:hover,
+#main-wrapper ul.contextual-links a:hover,
+.no-touchevents .contextual-region .contextual .contextual-links li a:hover
+ {
+  text-decoration: underline;
+  color: #1f76bd;
+}
 /* ----- end of admininistation interface  ----- */
