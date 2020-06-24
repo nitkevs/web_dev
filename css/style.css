@@ -34,7 +34,6 @@ h1 {
 
 h2 {
   font-size: 18px;
-  color: #444;
 }
 
 code, samp {
@@ -246,12 +245,28 @@ header a {
 }
 
 #content a {
-   color: #202020;
-   text-decoration: underline;
+  color: #4b7886;
+  text-decoration: underline;
 }
 
 #content a:hover {
-   text-decoration: none;
+  text-decoration: none;
+}
+
+#content h2 {
+  margin: 40px 10px 20px 10px;
+}
+
+#content .views-row:first-child h2 {
+  margin-top: 24px;
+}
+
+#content h2 a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 22px;
+  box-shadow: inset 27px 0 25px -25px #4b78865c;
+  background: linear-gradient(to right, #4b78862e, transparent);
 }
 
 div#main {
