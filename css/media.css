@@ -28,6 +28,8 @@
 
   .region-sidebar-first > * > *:last-child {padding: 19px 8px; text-align: center;}
 
+  #sidebar-first .block-system-menu-blockmain {display: block;}
+
 }
 
 @media screen and (max-width: 640px) {
@@ -45,8 +47,6 @@
   #close-menu-button {display: block; position: absolute; z-index: 4; top: 18px; right: 18px;}
 
   .region-primary-menu {display: none;}
-
-  #sidebar-first .menu--main {display: block;}
 
   .region-sidebar-first input[type="search"] {width: 134px; margin-left: 60px;}
 
