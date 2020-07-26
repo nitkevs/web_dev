@@ -230,7 +230,7 @@ header a {
 
     /* -- tagclouds -- */
 
-a.tagclouds {padding-right: 10px; display: inline-block;}
+a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
 
 .tagclouds.level1 {font-size: 0.8em;}
 
