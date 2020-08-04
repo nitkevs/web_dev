@@ -179,10 +179,13 @@ header a {
   color: #f3f7f7;
 }
 
+.region-sidebar-first input  {
+    color: #202020;
+}
+
 .region-sidebar-first input[type="search"] {
   display: inline-block;
   padding: 1px 4px;
-  color: #202020;
 }
 
 .region-sidebar-first > * > *:last-child {
