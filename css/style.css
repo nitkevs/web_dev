@@ -239,6 +239,13 @@ header a {
   font-weight: bold;
 }
 
+article.comment {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+article.comment:last-of-type {
+  border-bottom: none;
+}
     /* -- tagclouds -- */
 
 a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
