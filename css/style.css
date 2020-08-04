@@ -184,6 +184,7 @@ header a {
 }
 
 .region-sidebar-first input[type="search"] {
+  display: inline-block;
   padding: 1px 4px;
   color: #202020;
 }
@@ -314,6 +315,13 @@ footer.node__meta {
 
 .field__items {
   padding-bottom: 36px;
+}
+
+.form-item input,
+.form-item textarea {
+  ￼max-width: 100%;
+  display: block;
+  margin-top: 8px;
 }
 
 /* ----- end of main ----- */
