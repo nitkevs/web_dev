@@ -235,6 +235,10 @@ header a {
 
 }
 
+.comment__submitted span[rel="schema:author"] {
+  font-weight: bold;
+}
+
     /* -- tagclouds -- */
 
 a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
