@@ -228,6 +228,13 @@ header a {
   display: none;
 }
 
+#block-web-dev-content footer {
+  padding-left: 35px;
+  color: #636363;
+  font-size: 14px;
+
+}
+
     /* -- tagclouds -- */
 
 a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
