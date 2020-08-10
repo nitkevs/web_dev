@@ -6,3 +6,9 @@ global-components:
       css/media.css: {}
   js:
     js/mobile-menu.js: {}
+
+font-awesome:
+  version: VERSION
+  css:
+    theme:
+      font-awesome/css/font-awesome.min.css: {}
