@@ -344,6 +344,14 @@ footer.node__meta {
   font-weight: bold;
 }
 
+#content .comment__submitted *.fa-user-circle-o::before {
+  padding-right: 3px;
+}
+
+#content .comment__submitted a.fa-user-circle-o {
+  text-decoration: none;
+}
+
 article.comment {
   border-bottom: 1px solid #d5d5d5;
   padding: 5px 0 8px 0;
