@@ -235,17 +235,6 @@ header a {
 
 }
 
-.comment__submitted span[rel="schema:author"] {
-  font-weight: bold;
-}
-
-article.comment {
-  border-bottom: 1px solid #d5d5d5;
-}
-
-article.comment:last-of-type {
-  border-bottom: none;
-}
     /* -- tagclouds -- */
 
 a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
@@ -346,6 +335,27 @@ footer.node__meta {
 
 .node__links {
     padding-left: 35px;
+}
+
+.field--type-comment {
+    padding: 0 15% 0 3%;
+}
+
+.comment__submitted span[rel="schema:author"] {
+  font-weight: bold;
+}
+
+article.comment {
+  border-bottom: 1px solid #d5d5d5;
+  padding: 5px 0 8px 0;
+}
+
+article.comment:last-of-type {
+  border-bottom: none;
+}
+
+.field--type-comment h2 {
+  margin: 40px 0px 12px 0px;
 }
 
 /* ----- end of main ----- */
