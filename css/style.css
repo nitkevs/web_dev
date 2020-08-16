@@ -339,6 +339,15 @@ footer.node__meta {
   margin-top: 8px;
 }
 
+.node__links .fas {
+    padding: 0 1em 0 0;
+    color: #4b7886;
+}
+
+.node__links {
+    padding-left: 35px;
+}
+
 /* ----- end of main ----- */
 
 /* ----- footer ----- */

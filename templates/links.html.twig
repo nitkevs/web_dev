@@ -39,14 +39,20 @@
       <h2{{ heading.attributes }}>{{ heading.text }}</h2>
     {%- endif -%}
   {%- endif -%}
+  {% set icon = [
+      "",
+      "fa-link",
+      "fa-comments-o"
+    ]
+  %}
   <ul{{ attributes }}>
     {%- for item in links -%}
-      <li{{ item.attributes }}>
-        {# Далее небольшой костыль. Исправить, когда научусь пользоваться хуками. #}
-        {%- if item.link and item.text != 'Добавить комментарий' -%}
-          {{ item.link }}
-        {%- endif -%}
-      </li>
+      {# Далее небольшой костыль. Исправить, когда научусь пользоваться хуками. #}
+      {%- if item.link and loop.index < 3 -%}
+        <li{{ item.attributes.addClass('fas', icon[loop.index]) }}>
+        {{ item.link }}
+        </li>
+      {%- endif -%}
     {%- endfor -%}
   </ul>
 {%- endif %}
