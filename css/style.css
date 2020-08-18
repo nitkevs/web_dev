@@ -327,13 +327,9 @@ footer.node__meta {
   margin-top: 8px;
 }
 
-.node__links .fas {
+.links .fas {
     padding: 0 1em 0 0;
     color: #4b7886;
-}
-
-.node__links {
-    padding-left: 35px;
 }
 
 .field--type-comment {
@@ -354,16 +350,28 @@ footer.node__meta {
 
 article.comment {
   border-bottom: 1px solid #d5d5d5;
-  padding: 5px 0 8px 0;
-}
-
-article.comment:last-of-type {
-  border-bottom: none;
+  padding: 5px 0 15px 0;
 }
 
 .field--type-comment h2 {
   margin: 40px 0px 12px 0px;
 }
+
+ul.links.inline {
+  padding-left: 28px; /* LTR */
+  font-size: 14px;
+}
+
+#content ul.links.inline a,
+#content a[property="schema:name"] {
+  text-decoration: none;
+}
+
+#content ul.links.inline a:hover,
+#content a[property="schema:name"]:hover {
+  text-decoration: underline;
+}
+
 
 /* ----- end of main ----- */
 
