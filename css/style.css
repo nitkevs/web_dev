@@ -273,6 +273,9 @@ a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
   padding: 16px 35px 2000000px 35px;
   box-shadow: inset 0px 15px 5px -15px #1a2504;
   background: #fff;
+  line-height: 1.4em;
+  font-size: 16px;
+  letter-spacing: 0;
 }
 
 #content a {
@@ -440,6 +443,7 @@ img.drupal-small-logo {
   text-decoration: none;
   color: #445155;
   line-height: 1.2em;
+  font-size: 14px;
 }
 
 #main-wrapper .tabs a.is-active {
