@@ -35,9 +35,7 @@
 #}
 {% if links %}
   <div class="node__links">
-
   {% set icon = [
-      "",
       "fa-link",
       "fa-comments-o"
     ]
@@ -46,7 +44,7 @@
     {%- for item in links -%}
       {# Далее небольшой костыль. Исправить, когда научусь пользоваться хуками. #}
       {%- if item.link and loop.index < 3 -%}
-        <li{{ item.attributes.addClass('fas', icon[loop.index]) }}>
+        <li{{ item.attributes.addClass('fas', icon[loop.index0]) }}>
         {{ item.link }}
         </li>
       {%- endif -%}
