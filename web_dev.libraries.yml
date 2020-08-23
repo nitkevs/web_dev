@@ -12,3 +12,9 @@ font-awesome:
   css:
     theme:
       font-awesome/css/font-awesome.min.css: {}
+
+geshifilter:
+  version: VERSION
+  css:
+    theme:
+      css/geshifilter.css: {}
