@@ -375,6 +375,12 @@ ul.links.inline {
   text-decoration: underline;
 }
 
+div.geshifilter ol,
+div.geshifilter span {
+  font-family: 'PT Mono', monospace;
+  font-size: 14px;
+  line-height: 1.5em;
+}
 
 /* ----- end of main ----- */
 
