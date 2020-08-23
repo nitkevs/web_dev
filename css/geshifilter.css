@@ -9,7 +9,7 @@
  */
 div.geshifilter {
   padding: 0;
-  background: #eee;
+  background: #fafafa;
 }
 
 /* CSS resets for 'ol'-based line numbering. */
@@ -17,6 +17,7 @@ div.geshifilter ol {
   margin: 0;
   /* Left padding is for keeping space for the line numbers. */
   padding: 0 0 0 50px;
+  background: #eee;
   list-style-position: outside;
   list-style-type: decimal;
   line-height: 1.5;
