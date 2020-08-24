@@ -330,13 +330,21 @@ footer.node__meta {
   margin-top: 8px;
 }
 
+input[type="checkbox"] {
+  display: inline;
+}
+
+div.description {
+  margin-top: 8px;
+}
+
 .links .fas {
-    padding: 0 1em 0 0;
-    color: #4b7886;
+  padding: 0 1em 0 0;
+  color: #4b7886;
 }
 
 .field--type-comment {
-    padding: 0 15% 0 3%;
+  padding: 0 15% 0 3%;
 }
 
 .comment__submitted span[rel="schema:author"] {
