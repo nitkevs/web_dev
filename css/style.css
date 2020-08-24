@@ -378,6 +378,25 @@ ul.links.inline {
   text-decoration: underline;
 }
 
+  /* -- CAPTCHA -- */
+
+.captcha {
+  background: #ffffe0;
+  padding: 10px 20px;
+  border: 1px solid #ececa1;
+}
+
+.captcha .form-item {
+  margin: 0;
+}
+
+.captcha .form-item input {
+  display: inline-block;
+  margin-top: 0;
+}
+
+  /* -- end of CAPTCHA -- */
+
 /* ----- end of main ----- */
 
 /* ----- footer ----- */
