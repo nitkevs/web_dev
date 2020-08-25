@@ -54,7 +54,7 @@
 
   .region-sidebar-first a {display: block;}
 
-  #sidebar-first a, #sidebar-first h2 {transition-duration: 0.4s; transform: translateX(-100%);}
+  #sidebar-first a, #sidebar-first h2 {transition-duration: 0.3s; transform: translateX(-100%);}
 
   h1 {padding: 22px 60px 22px 0;}
 
