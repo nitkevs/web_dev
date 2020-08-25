@@ -40,7 +40,7 @@
 
   #open-menu-button {display: block; position: absolute; top: 38px; right: 18px; z-index: 4; border-radius: 6px; background: #4d4f4f;}
 
-  #content .views-row:first-child h2 {margin-right: 60px;}
+  #content .views-row:first-child h2 {margin-right: 60px;} /* Добавляет отступ для первого заголовка на главной, чтобы на него не набегала кнопка меню */
 
   #content h2 {line-height: 1.4em;}
 
@@ -50,9 +50,9 @@
 
   .region-sidebar-first input[type="search"] {width: 134px; margin-left: 60px;}
 
-  .region-sidebar-first > * > *:last-child {padding: 19px 0px;}
+  .region-sidebar-first > * > *:last-child {padding: 19px 0px;} /* Добавляет отступы внутри блоков боковой панели */
 
-  .region-sidebar-first a  {display: block;}
+  .region-sidebar-first a {display: block;}
 
   #sidebar-first a, #sidebar-first h2 {transition-duration: 0.4s; transform: translateX(-100%);}
 
