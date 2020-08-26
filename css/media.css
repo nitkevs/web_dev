@@ -73,6 +73,8 @@
 
   .region-sidebar-first input[type="search"] {margin-left: 60px;}
 
+  #block-web-dev-content footer {padding-left: 0px;}
+
 }
 
 @media screen and (max-width: 360px) {
