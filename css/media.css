@@ -91,6 +91,10 @@
 
   #block-web-dev-search form#search-block-form {text-align: right;}
 
+  .field--name-field-used-in {width: 14em; padding: 5px 8px; font-size: 12px;}
+
+  .field--name-field-used-in .field__label {font-size: 14px;}
+
 }
 
 @media screen and (max-width: 320px) {
@@ -98,5 +102,7 @@
   #block-web-dev-branding a {font-size: 22px;}
 
   .region-header {height: 92px;}
+
+  .field--name-field-used-in {float: none; width: 90%; margin: 10px auto 0 auto;}
 
 }
