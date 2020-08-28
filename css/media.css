@@ -56,6 +56,8 @@
 
   #sidebar-first span > a, #sidebar-first li.menu-item > a, #sidebar-first h2 {transition-duration: 0.3s; transform: translateX(-100%);}
 
+  #sidebar-first span > a, #sidebar-first li.menu-item > a {padding: 0 8px;}
+
   h1 {padding: 22px 60px 22px 0;}
 
   #sidebar-first .block-system-menu-blockmain ul.menu {padding-top: 19px;}
