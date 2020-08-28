@@ -54,9 +54,13 @@
 
   .region-sidebar-first a {display: block;}
 
-  #sidebar-first a, #sidebar-first h2 {transition-duration: 0.3s; transform: translateX(-100%);}
+  #sidebar-first span > a, #sidebar-first li.menu-item > a, #sidebar-first h2 {transition-duration: 0.3s; transform: translateX(-100%);}
 
   h1 {padding: 22px 60px 22px 0;}
+
+  #sidebar-first .block-system-menu-blockmain ul.menu {padding-top: 19px;}
+
+  #block-web-dev-search {padding: 10px 0 8px 0;}
 
   /* --- End of mobile menu --- */
 
