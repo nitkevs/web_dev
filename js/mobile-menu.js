@@ -16,7 +16,7 @@ openMenuButton.addEventListener('click', function() {
 closeMenuButton.addEventListener('click', function() {
    menu.style.opacity = '0';
    setTimeout(function() {
-     menu.style.zIndex = '0';
+     menu.style.zIndex = '-1';
      for (i = 0; i < items.length; i++) {
      items[i].style.transitionProperty = 'none';
      items[i].style.transform = 'translateX(-100%)';
