@@ -38,13 +38,13 @@
 
   #sidebar-first {position: fixed; top: 0; left: 0; z-index: -1; width: 100%; height: 100%; opacity: 0; margin: 0; padding: 0; overflow-x: scroll; text-align: center; transition-duration: 0.4s; transition-property: opacity;}
 
-  #open-menu-button {display: block; position: absolute; top: 38px; right: 18px; z-index: 4; border-radius: 6px; background: #4d4f4f;}
+  #open-menu-button {display: block; position: absolute; top: 38px; right: 18px; z-index: 4; border-radius: 6px; border: 1px solid #777;}
 
   #content .views-row:first-child h2 {margin-right: 60px;} /* Добавляет отступ для первого заголовка на главной, чтобы на него не набегала кнопка меню */
 
   #content h2 {line-height: 1.4em;}
 
-  #close-menu-button {display: block; position: absolute; z-index: 4; top: 18px; right: 18px;}
+  #close-menu-button {display: block; position: absolute; z-index: 4; top: 12px; right: 12px;}
 
   .region-primary-menu {display: none;}
 
@@ -71,7 +71,9 @@
 
 @media screen and (max-width: 480px) {
 
-  #open-menu-button {top: 33px; right: 12px;}
+  #open-menu-button {top: 33px; right: 15px;}
+
+/*   .views-row::first-of-type h2 {margin-right: 8px;} */
 
   #block-web-dev-branding a {font-size: 35px;}
 
@@ -104,6 +106,8 @@
   .field--name-field-used-in {width: 14em; padding: 5px 8px; font-size: 12px;}
 
   .field--name-field-used-in .field__label {font-size: 14px;}
+
+  #content .views-row:first-child h2 {margin-right: 68px;} /* Добавляет отступ для первого заголовка на главной, чтобы на него не набегала кнопка меню */
 
 }
 
