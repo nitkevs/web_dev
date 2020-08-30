@@ -480,6 +480,10 @@ footer.site-footer a:hover {
 }
 
 .region.region-footer-third {
+    text-align: center;
+}
+
+.region.region-footer-fourth {
   padding: 3px;
   text-align: center;
   clear: both;
@@ -487,7 +491,7 @@ footer.site-footer a:hover {
   color: #4d4f4f;
 }
 
-.region.region-footer-third a {
+.region.region-footer-fourth a {
   color: #0096d6;
   text-shadow: 0px 0px 1px rgba(0, 132, 189, 0.55);
 }
