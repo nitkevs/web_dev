@@ -21,5 +21,5 @@ regions:
   footer_fourth: 'Footer fourth'
 
 # Information added by Drupal.org packaging script on 2020-03-04
-version: '1.4.0'
+version: '1.4.1'
 project: 'drupal'
