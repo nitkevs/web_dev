@@ -480,11 +480,16 @@ footer.site-footer a:hover {
 .region.region-footer-first ul.menu,
 .region.region-footer-second ul.menu {
   width: max-content;
-  margin: 30px auto;
+  margin: 20px auto 12px;
 }
 
 .region.region-footer-third {
-    text-align: center;
+  margin: 0 1%;
+  border-top: 1px solid #888;
+  padding: 6px 0;
+  text-align: center;
+  line-height: 0; /* Убирает отступ под картинкой счётчика */
+  word-spacing: 5px; /* Устанавливает расстояние между счётчиками */
 }
 
 img.drupal-small-logo {
