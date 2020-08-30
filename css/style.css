@@ -462,6 +462,10 @@ footer.site-footer a:hover {
   text-decoration: underline;
 }
 
+#footer-menu {
+  overflow: hidden;
+}
+
 .region.region-footer-first,
 .region.region-footer-second {
   float: left;
@@ -483,6 +487,10 @@ footer.site-footer a:hover {
     text-align: center;
 }
 
+img.drupal-small-logo {
+  height: 13px;
+}
+
 .region.region-footer-fourth {
   padding: 3px;
   text-align: center;
@@ -494,10 +502,6 @@ footer.site-footer a:hover {
 .region.region-footer-fourth a {
   color: #0096d6;
   text-shadow: 0px 0px 1px rgba(0, 132, 189, 0.55);
-}
-
-img.drupal-small-logo {
-  height: 13px;
 }
 
 /* ----- end of footer ----- */
