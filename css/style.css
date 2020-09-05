@@ -492,7 +492,7 @@ footer.site-footer a:hover {
 .region.region-footer-first ul.menu,
 .region.region-footer-second ul.menu {
   width: max-content;
-  margin: 20px auto 12px;
+  margin: 16px auto;
 }
 
 .region.region-footer-third {
