@@ -433,6 +433,11 @@ ul.links.inline {
   margin: 12px 0 14px;
 }
 
+.search-form label::after {
+  content: "";
+  display: none;
+}
+
   /* -- CAPTCHA -- */
 
 .captcha {
