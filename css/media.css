@@ -64,6 +64,8 @@
 
   #block-web-dev-search {padding: 10px 0 8px 0;}
 
+  #sidebar-first hr.list-items-separator {display: block; width: 58%; height: 1px; border: none; background: linear-gradient(to right, transparent, #666, transparent);}
+
   /* --- End of mobile menu --- */
 
 }

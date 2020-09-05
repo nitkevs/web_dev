@@ -196,7 +196,7 @@ header a {
 }
 
 .region-sidebar-first > * > *:last-child {
-  padding: 19px 8px 22px 28px;
+  padding: 20px 24px;
 }
 
 .region-sidebar-first > * > form:last-child {
@@ -208,7 +208,8 @@ header a {
 }
 
 .region-sidebar-first li {
-  margin: 0 0 0.25em 0;
+  margin: 3px 0;
+  padding: 0;
 }
 
 .region-sidebar-first .item-list ul {
@@ -239,6 +240,10 @@ header a {
   padding-left: 35px;
   color: #636363;
   font-size: 14px;
+}
+
+hr.list-items-separator {
+    display: none;
 }
 
     /* -- tagclouds -- */
