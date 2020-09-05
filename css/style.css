@@ -364,14 +364,6 @@ div.description {
   font-weight: bold;
 }
 
-#content *.fa-user-circle-o::before {
-  padding-right: 3px;
-}
-
-#content a.fa-user-circle-o {
-  text-decoration: none;
-}
-
 article.comment {
   border-bottom: 1px solid #d5d5d5;
   padding: 5px 0 15px 0;
