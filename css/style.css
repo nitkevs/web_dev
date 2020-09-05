@@ -248,7 +248,7 @@ hr.list-items-separator {
 
     /* -- tagclouds -- */
 
-a.tagclouds {padding-right: 10px; display: inline-block; line-height: 23px;}
+a.tagclouds {padding-right: 10px; display: inline-block; line-height: 1.5em;}
 
 .tagclouds.level1 {font-size: 0.8em;}
 
