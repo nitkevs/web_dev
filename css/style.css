@@ -429,6 +429,10 @@ ul.links.inline {
   text-decoration: underline;
 }
 
+.search-form input[type="submit"] {
+  margin: 12px 0 14px;
+}
+
   /* -- CAPTCHA -- */
 
 .captcha {
