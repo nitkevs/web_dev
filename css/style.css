@@ -364,11 +364,11 @@ div.description {
   font-weight: bold;
 }
 
-#content .comment__submitted *.fa-user-circle-o::before {
+#content *.fa-user-circle-o::before {
   padding-right: 3px;
 }
 
-#content .comment__submitted a.fa-user-circle-o {
+#content a.fa-user-circle-o {
   text-decoration: none;
 }
 
