@@ -14,3 +14,12 @@ function web_dev_theme_suggestions_block_alter(array &$suggestions, array $varia
   }
   return $suggestions;
 }
+
+function web_dev_preprocess(&$variables) {
+  try {
+    $variables['is_front'] = \Drupal::service('path.matcher')->isFrontPage();
+  }
+  catch (Exception $e) {
+    $variables['is_front'] = FALSE;
+  }
+}

@@ -44,7 +44,8 @@
       gtag('config', 'UA-176742812-1');
     </script>
     <head-placeholder token="{{ placeholder_token }}">
-    <title>{{ head_title|safe_join(' | ') }}</title>
+    <title>{% if not is_front %}{{ head_title.title }} - {% endif %}{{ head_title.name }}</title>
+
     <css-placeholder token="{{ placeholder_token }}">
     <js-placeholder token="{{ placeholder_token }}">
   </head>
